@@ -53,3 +53,6 @@ a {
 a:hover {
     background-color: #01579b;
 }
+.sobre_cursos {
+    list-style: none;  /* saca los bullets */
+}
