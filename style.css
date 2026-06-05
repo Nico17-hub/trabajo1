@@ -5,6 +5,28 @@
     text-decoration: none;
     border-radius: 8px;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #dff6ff, #b8e8fc);
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #0d47a1;
+    margin-bottom: 30px;
+}
+
+.contenedor {
+    background-color: white;
+    width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
 .sobre_cursos {
     list-style: none;  /* saca los bullets */
 }
