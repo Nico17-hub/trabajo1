@@ -1,0 +1,24 @@
+:root {
+    --bg: #0a0a0a;
+    --surface: #111111;
+    --surface2: #1a1a1a;
+    --border: #2a2a2a;
+    --accent: #e8f950;
+    --accent-dim: #b8c73d;
+    --text: #f0ede6;
+    --text-muted: #888;
+    --font-display: 'Syne', sans-serif;
+    --font-body: 'DM Sans', sans-serif;
+    --radius: 16px;
+    --max-w: 1100px;
+}
+.boton{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.sobre_cursos {
+    list-style: none;  /* saca los bullets */
+}
