@@ -3,72 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cursos de Programación</title>
+    <title>CodeX - Cursos de Programación</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style-main.css">
 </head>
+
 <body>
 
+     <nav class="nav">
+        <span class="nav__logo">CodeX</span>
+        <a class="nav__cta" href="curso.html">Inscribirme</a>
+    </nav>
+ 
     <!-- HEADER -->
-    <header>
-        <h1>Aprendé a programar 
-            y conseguí tu primer trabajo
-            en 6 meses. 
-        </h1>
-        <p>
+    <header class="hero">
+         <div class="hero__img-bg"></div>
+        <div class="hero__overlay"></div>
+        <div class="hero__content">
+        <span class="hero__badge">🚀 Nueva cohorte — Agosto 2026</span>
+    
+            <h1 class="hero__title">
+                Aprendé a programar<br>
+                <span class="hero__title-highlight">y conseguí tu primer trabajo</span><br>
+                en 6 meses.
+            </h1>
+        
+        <p class="hero__desc">
             Un curso intensivo, práctico y sin relleno. De HTML y CSS a React y Node.js. 
             Con proyectos reales, mentorías en vivo y una comunidad que te respalda en cada paso.
         </p>
 
-        <button>Ver temario completo </button>
+        <a class="boton" href="#temario">Ver temario completo</a>
+         </div>
     </header>
 
 
     <!-- SECCIÓN BENEFICIOS -->
-    <section>
-        <h2>¿Qué vas a aprender?</h2>
+    <section class="beneficios" id="temario">
+    <h2>¿Qué vas a aprender?</h2>
+     <p class="section-subtitle">Todo lo que necesitás para entrar al mercado laboral</p>
 
-        <div>
-            <h3>HTML</h3>
-            <p>
-               Creación de estructuras web profesionales.
-            </p>
-        </div>
-
-        <div>
-            <h3>CSS</h3>
-            <p>
-                Diseño moderno y responsive.
-            </p>
-        </div>
-
-        <div>
-            <h3>JavaScript</h3>
-            <p>
-                Interactividad y lógica para tus páginas.
-            </p>
-        </div>
-
-        <div>
-            <h4>React</h4>
-            <p>
-                Tecnologías del mercado laboral actual.
-            </p>
-        </div>
-            <div>
-                <h4>Node.js</h4>
-                <p>
-                    Desarrollo backend con JavaScript.
-                </p>
+   <div class="cards-grid">
+            <div class="card">
+                <span class="card__icon">🌐</span>
+                <h3>HTML</h3>
+                <p>Creación de estructuras web profesionales.</p>
             </div>
+
+    <div class="card">
+                <span class="card__icon">🎨</span>
+                <h3>CSS</h3>
+                <p>Diseño moderno y responsive.</p>
+            </div>
+
+    <div class="card">
+                <span class="card__icon">⚡</span>
+                <h3>JavaScript</h3>
+                <p>Interactividad y lógica para tus páginas.</p>
+            </div>
+
+    <div class="card">
+                <span class="card__icon">⚛️</span>
+                <h3>React</h3>
+                <p>Tecnologías del mercado laboral actual.</p>
+            </div>
+
+    <div class="card card--wide">
+                <span class="card__icon">🟢</span>
+                <h3>Node.js</h3>
+                <p>Desarrollo backend con JavaScript.</p>
+            </div>
+        </div>
     </section>
 
     <!-- SECCIÓN SOBRE EL CURSO -->
-    <section>
-        <h2>Sobre el curso</h2>
+    <section class="sobre">
+         <div class="sobre__inner">
+            <div class="sobre__text">
+        <h2>Sobre nuestros cursos</h2>
 
         <p>
-            Este curso está pensado para principiantes y
-            te guía paso a paso hasta crear tus propios proyectos.
+            Estos cursos están pensados para principiantes y
+            te guían paso a paso hasta crear tus propios proyectos.
         </p>
         <ul class="sobre_cursos">
                     <li>✦ Clases grabadas + mentorías en vivo</li>
@@ -76,49 +94,49 @@
                     <li>✦ Comunidad privada de alumnos</li>
                     <li>✦ Certificado al finalizar</li>
                 </ul>
-
-        <img src="imagen-curso.jpg" alt="Imagen del curso">
+            </div>
+        <div class="sobre__img-wrap">
+        <img src="img/info.png" alt="Información del curso">
+        </div>
+         </div>
     </section>
 
 
     <!-- TESTIMONIOS -->
-    <section>
+    <section class="testimonios">
         <h2>Opiniones de alumnos</h2>
-
-        <div>
-            <p>
-                "Muy fácil de entender y súper práctico."
-            </p>
-            <h4>- @Nico_CX</h4>
-        </div>
-
-        <div>
-            <p>
-                "Ahora puedo hacer mis propias páginas."
-            </p>
-            <h4>- @Lucía_COD</h4>
+         <p class="section-subtitle">Las voces de quienes ya cursaron</p>
+          <div class="testimonios__grid">
+             <div class="testimonio-card">
+                <p class="testimonio-card__quote">"Muy fácil de entender y súper práctico."</p>
+                <div class="testimonio-card__autor">
+                    <span class="testimonio-card__avatar">N</span>
+                    <span>@Nico_CX</span>
+                </div>
+            </div>
+        
+        <div class="testimonio-card">
+                <p class="testimonio-card__quote">"Ahora puedo hacer mis propias páginas."</p>
+                <div class="testimonio-card__autor">
+                    <span class="testimonio-card__avatar">L</span>
+                    <span>@Lucía_COD</span>
+                </div>
+            </div>
         </div>
     </section>
-
 
     <!-- LLAMADO FINAL -->
-    <section>
+    <section class="cta-final">
         <h2>Empezá hoy mismo</h2>
-
-        <p>
-            Sumate al curso y aprendé desarrollo web desde cero.
-        </p>
-        <a class="boton" href="curso.html">Inscribirme</a>
+        <p>Sumate al curso y aprendé desarrollo web desde cero.</p>
+        <a class="boton boton--grande" href="curso.html">Inscribirme ahora →</a>
     </section>
 
-
-    <!-- FOOTER -->
-    <footer>
-        <p>
-            © 2026 CodeX - Todos los derechos reservados
-        </p>
+   <!-- FOOTER -->
+    <footer class="footer">
+        <span class="nav__logo">CodeX</span>
+        <p>© 2026 CodeX — Todos los derechos reservados</p>
     </footer>
-
+ 
 </body>
 </html>
-
