@@ -13,7 +13,7 @@
 }
 
 body{
-    font-family: 'Segoe UI', sans-serif;
+    font-family:'Plus Jakarta Sans', sans-serif;
     background: linear-gradient(135deg, #001f54, #034ea2, #0a84ff);
     min-height: 100vh;
     padding: 40px;
